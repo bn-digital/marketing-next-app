@@ -1,0 +1,8 @@
+export default function Loading() {
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center">
+      <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600"></div>
+      <p className="text-xl">Loading products...</p>
+    </div>
+  )
+}
